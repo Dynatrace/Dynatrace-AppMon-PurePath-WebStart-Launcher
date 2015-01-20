@@ -1,0 +1,69 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>JavaScript and WebStart Plugin</title>
+	<link rel="STYLESHEET" type="text/css" href="/style/jsc.css">
+</head>
+
+<SCRIPT language="JavaScript" type="text/javascript">
+
+   
+function changeImage()
+{
+document.images["jsbutton"].src= "detailsButton2.jpg";
+return true;
+}
+function changeImageBack() 
+{
+ document.images["jsbutton"].src = "detailsButton.jpg";
+ return true;
+}
+
+function goPurePath(){ 
+var Server=document.forms.Form.Server.value;
+var Dash=document.forms.Form.Dash.value;
+var PurePath=document.forms.Form.PurePath.value;
+
+// Assign and open the PurePath String.  i.e. https://localhost:8021/webstart/Client/client.jnlp?argument=-reuse&argument=-dashboard&argument=online://ehorsman2/PPDrill&argument=-searchpath&argument=PT=22132;PA=846431468;RS=easyTravel/20111115082230_0.session;PS=1801306885
+
+   
+var myString = 'http:\/\/' + Server +':8020\/webstart\/Client\/client.jnlp?argument=-reuse&argument=-dashboard&argument=online:\/\/'+ Server +'\/'+ Dash +'&argument=-searchpath&argument='+PurePath; 
+
+window.open(myString,'width=1000,height=650,scrollbars=yes'); 
+} 
+
+</SCRIPT> 
+
+<body>
+
+	<center><h3><b> Welcome to the PurePath Launcher.  You must hit OK when dynaTrace Comes Up.</b></h3></center>
+	<br>
+	<br>
+<FORM name="Form">
+
+     Type Your Server Name or IP: <INPUT NAME="Server">
+<br><br>
+	Type in Your Launch Dashboard:(default is PPDrill) <INPUT NAME="Dash" Value="PPDrill">
+<br>
+	<b>---- Note You Must Have a saved blank Dashboard ----</b>
+<br><br>
+     Paste in your PurePath ID:    <INPUT NAME="PurePath" SIZE=100>
+	<br>
+</FORM>
+
+<BR>
+
+<A href="#" onMouseOver="return changeImage()" onMouseOut= "return changeImageBack()" onClick="goPurePath();return true"><img
+name="jsbutton" src="detailsButton.jpg" width="140" height="35" border="0"
+alt="javascript button"></A> 
+
+
+
+<P>
+Back to <a href="http://blog.dynatrace.com">Go to the Blog</a>.
+
+
+</P>
+</body>
+</html>

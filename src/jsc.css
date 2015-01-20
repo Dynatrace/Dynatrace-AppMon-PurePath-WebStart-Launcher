@@ -1,0 +1,255 @@
+H1 {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 24px;
+	color : #000066;
+}
+H2 {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 22px;
+	color : #000066;
+}
+H3 {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 18px;
+	font-weight : bold;
+	color : #000066;
+
+}
+BODY {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 14px;
+	line-height:145%;
+}
+TD,P,A {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 14px;
+	line-height:145%;
+}
+A:HOVER {
+	text-decoration : none;
+}
+B {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 14px;
+	font-weight : bold;
+	color : #000066;	
+}
+.Legal {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+}
+B.menusection {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 14px;
+	font-weight : bold;	
+	color : #000066;
+}
+A.header {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 9px;	
+}
+A.articleheader {
+font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-size : 9px;	
+}
+A:HOVER.articleheader {
+	text-decoration : none;
+}
+HR.articlebodydivider {
+	color : #0066FF;
+}
+H1.articlehead {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 18px;	
+	font-weight : bold;
+    color:#660000;	
+	background-color : #FFFFFF;
+}
+CODE {
+font-family : Courier,monospace;font-size: 12px;color : #800000;
+}
+CODE.projectedc {
+font-family : Courier,monospace;font-size: 12px;color : #800000; background-color : #FFFF99;
+}
+CODE.htm {
+font-family : "Courier New", Courier, monospace; color : #000080;font-size: 12px;
+}
+CODE.projectedhtm {
+font-family : "Courier New", Courier, monospace; color : #000080;font-size: 12px; background-color : #FFFF99;
+}
+
+CODE.comment {
+	font-family : "Courier New", Courier, monospace;
+	font-size: 12px;
+	color : Gray;
+}
+.testimonial{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 13px;
+}
+.formItemNameM{
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 12px;
+	font-weight : bold;	
+	color : #330000;	
+	text-align: right;
+}
+.formItemName {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 13px;
+	font-weight : bold;	
+	color : #000066;	
+	text-align: right;
+}
+.Error {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 13px;
+	font-weight : bold;
+	color : #990000;
+}
+.projected {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 14px;
+	font-weight : bold;
+	color : #600000;
+}
+.projectedx {
+	font-weight : bold;
+	color : #600000;
+}
+.projectedxx {
+	font-weight : bold;
+	color : #600000;
+	background-color : #FFFF99;
+}
+
+.SmallNote {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	color : #000099;
+}
+B.SiteMapHead1 {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 14px;
+	font-weight : bold;	
+	color : #000066;	
+}
+B.SiteMapHead2 {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 12px;
+	font-weight : bold;	
+	color : #000066;	
+}
+
+div .sociable { margin: 16px 0 !important; }
+
+span.sociable_tagline { position: relative; }
+span.sociable_tagline span { display: none; width: 14em; }
+span.sociable_tagline:hover span {
+	position: absolute;
+	display: block;
+	top: -5em;
+	background: #ffe;
+	border: 1px solid #ccc;
+	color: black;
+	line-height: 1.25em;
+}
+
+.sociable span {
+	display: block;
+}
+.sociable ul {
+	display: inline;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.sociable li {
+	background: none;
+	display: inline;
+	list-style-type: none;
+	margin: 0;
+	padding: 2px;
+}
+.sociable ul li:before { content: ""; }
+.sociable img {
+	float: none;
+	width: 16px;
+	height: 16px;
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.sociable-hovers {
+	opacity: .6;
+	-moz-opacity: .6;
+	filter: alpha(opacity=60);
+}
+.sociable-hovers:hover {
+	opacity: 1;
+	-moz-opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+.mainbody
+{
+  padding: 10px;
+  border-right:1px solid #D5ECFA;
+  line-height: 130%;
+}
+.advimg{
+	opacity: 1;
+	-moz-opacity: 1;
+	filter: alpha(opacity=100);	
+}
+
+.advimg:hover{
+	opacity: .7;
+	-moz-opacity: .7;
+	filter: alpha(opacity=70);
+}
+
+A.small {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 10px;
+}
+
+.small_info {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 10px;
+}
+
+.Para
+{
+	margin-left: 10px;
+	margin-bottom: 40px;
+}
+.Para2
+{
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.olpadded
+{
+	padding-bottom:10px;
+}
+
+.olpadded li
+{
+	padding-bottom:10px;
+}
+
+div.advbox
+{
+	text-align:center; 
+	margin-top:30px; 
+	margin-bottom:30px;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 14px;	
+}
+div.advbox .head
+{
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 22px;
+	color : #000066;
+}
